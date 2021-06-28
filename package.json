@@ -1,0 +1,20 @@
+{
+  "name": "cors-anywhere-server",
+  "version": "1.0.0",
+  "description": "A server help bypass CORS using Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --inspect index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
