@@ -10,6 +10,13 @@ Put that block CORS url into `blocked-url` parameter below
 https://cors-anywhere-server-nabatti99.herokuapp.com/blocked-url
 ```
 
+Add the flowing header request
+
+```json
+"x-requested-with": "*"
+"permit-by-nabatti99": "true"
+```
+
 # Reference
 
 The project is using `cors-anywhere` package by [rob@robwu.nl](https://www.npmjs.com/~rob-w)
